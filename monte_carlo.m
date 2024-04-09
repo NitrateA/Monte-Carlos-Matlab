@@ -19,5 +19,5 @@ y = (2*rand - 1) * h;
         plot(x,y,'bx');
     end
 end
-sonuc = ((kirmizi_nokta_sayisi-yesil_nokta_sayisi)/N) * h *(b-a);
+sonuc = ((kirmizi_nokta_sayisi-yesil_nokta_sayisi)/N) * h *(b-a) * 2;
 end
